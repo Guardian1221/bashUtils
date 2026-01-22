@@ -9,7 +9,7 @@ test:
 	chmod 777 ruth_cat.sh
 	./ruth_cat.sh
 
-s21_grep: _7214_cat.c
+_7214_cat: _7214_cat.c
 	gcc $(FLAGS) $(SRC) -o _7214_cat
 
 .PHONY: clean
